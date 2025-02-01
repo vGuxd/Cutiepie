@@ -1,6 +1,8 @@
 const container = document.getElementById("container");
 const imageOne = document.querySelector(".image-1");
 const imageTwo = document.querySelector(".image-2");
+const imageThree = document.querySelector(".image-3");
+const imageFour = document.querySelector(".image-4");
 const btnYes = document.querySelector(".btn-yes");
 const btnNo = document.querySelector(".btn-no");
 
@@ -31,10 +33,13 @@ btnNo.addEventListener("mouseover", (event) => {
 
   btnNo.style.top = Math.floor(newTop) + "px";
   btnNo.style.left = Math.floor(newLeft) + "px";
+  imageFour.classList.remove("hide")
 });
 
 btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
   imageOne.classList.add("hide");
   imageTwo.classList.remove("hide");
+  imageThree.classList.remove("hide");
+  imageFour.classList.add("hide");
 });

@@ -19,7 +19,7 @@ body {
   padding: 2rem;
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to right bottom, #f2a7e7, #ea95cc);
+  background-image: linear-gradient(to right bottom, #4e0042, #28002b);
   display: flex;
   flex-direction: column;
 }
@@ -46,7 +46,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
 }
 
 .image-1 {
